@@ -1,0 +1,112 @@
+.left { 
+    display: inline-block;
+    margin-top: 3px;
+    height: 10px;
+}
+.face { 
+    display: inline-block;
+    margin-top: 3px;
+    height: 10px;
+}
+.right { 
+    display: inline-block;
+    margin-top: 3px;
+    height: 10px;
+}
+
+.hurueruLeft {
+    animation: huruLeft infinite;
+    animation-duration: 902ms;
+}
+@keyframes huruLeft {
+    0% {transform: translateY(0px)}
+    25% {transform: translateY(-10px)}
+    50% {transform: translateY(0px)}
+    75% {transform: translateY(5px)}
+    100% {transform: translateY(0)}
+}
+.hurueru {
+    animation: huru linear infinite;
+    animation-duration: 902ms;
+}
+@keyframes huru {
+    0% {transform: translateX(0px)}
+    25% {transform: translateX(-1px) rotateZ(3deg)}
+    50% {transform: translateX(0px)}
+    75% {transform: translateX(1px) rotateZ(-3deg)}
+    100% {transform: translateX(0)}
+}
+.hurueruRight {
+    animation: huruRight infinite;
+    animation-duration: 902ms;
+}
+@keyframes huruRight {
+    0% {transform: translateY(0px)}
+    25% {transform: translateY(6px)}
+    50% {transform: translateY(0px)}
+    75% {transform: translateY(-6px)}
+    100% {transform: translateY(0)}
+}
+.yurezu{
+    display: block;
+}
+.yure1 {
+    display: block;
+    animation: yureru1 ease-in-out infinite;
+    animation-duration: 3608ms;
+}
+@keyframes yureru1 {
+    0% {transform: translateX(0px)}
+    25% {transform: translateX(-10px)}
+    50% {transform: translateX(0px)}
+    75% {transform: translateX(10px)}
+    100% {transform: translateY(0)}
+}
+.yure2 {
+    display: block;
+    animation: yureru2 ease-in-out infinite;
+    animation-duration: 3608ms;
+}
+@keyframes yureru2 {
+    0% {transform: translateX(0px)}
+    25% {transform: translateX(10px)}
+    50% {transform: translateX(0px)}
+    75% {transform: translateX(-10px)}
+    100% {transform: translateY(0)}
+}
+
+.all{
+    opacity: 0;
+    transition: all 1s ease;
+    text-align: center;
+}
+.all:hover{
+    opacity: 1;
+    transition: all 1s ease;
+    text-align: center;
+}
+.all2{
+    opacity: 1;
+    transition: all 1s ease;
+    text-align: center;
+}
+.msg{
+    opacity: 0;
+    transition: all 1s ease;
+    text-align: center;
+}
+.msg07{
+    opacity: 0.7;
+    transition: all 1s ease;
+    text-align: center;
+}
+.bokete{
+    width:150px;
+    margin: 0 0 0 auto;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.bokete:hover{
+    opacity: 0.7;
+    transition: all 4s ease;
+}
